@@ -38,7 +38,7 @@ dotenv.config();
 const app = express();
 
 // ✅ Proper CORS Configuration
-app.use(cors({ origin: "https://www.retrendonline.in", credentials: true }));
+app.use(cors({ origin: "https://locall.host/3000", credentials: true }));
 
 app.use(bodyParser.json());
 
